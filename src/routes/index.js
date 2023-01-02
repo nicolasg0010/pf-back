@@ -8,7 +8,7 @@ const usuario = require('./usuario')
 const formato = require('./formato')
 const favorito = require('./favorito')
 const auth = require('./auth')
-const checkout = require('./checkout')
+// const checkout = require('./checkout')
 
 const router = Router()
 
@@ -20,7 +20,7 @@ router.use('/pedidos', pedido)
 router.use('/usuarios', usuario)
 router.use('/formatos', formato)
 router.use('/favoritos', favorito)
-router.use('/checkout', checkout)
+// router.use('/checkout', checkout)
 router.use('/reviews', review)
 
 module.exports = router
